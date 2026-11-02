@@ -1,0 +1,41 @@
+{
+  "name": "blue-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blue Defender Node: AI shopping assistant, 9-layer guard, mock chain, collector, dashboard",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "blue": "tsx src/index.ts",
+    "agent": "tsx src/agent/server.ts",
+    "chain": "tsx src/chain/server.ts",
+    "collector": "tsx src/collector/server.ts",
+    "solo": "tsx src/solo.ts",
+    "reset": "tsx src/reset.ts",
+    "test": "vitest run",
+    "test:spike": "vitest run tests/spike.test.ts",
+    "test:guard": "vitest run tests/guard.test.ts",
+    "test:honest": "vitest run tests/honest.test.ts",
+    "test:attacks": "vitest run tests/attacks.test.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.5.0",
+    "uuid": "^11.0.3",
+    "viem": "^2.21.57",
+    "x402": "1.2.0",
+    "x402-fetch": "1.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

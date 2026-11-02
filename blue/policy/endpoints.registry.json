@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "rails": ["evm"],
+  "globalCaps": {
+    "dailyAtomic": "5000000000",
+    "perCallAtomic": "50000000",
+    "approvalAtomic": "5000000",
+    "velocityPerMin": 200
+  },
+  "merchants": {
+    "red-merchant": {
+      "origin": "http://localhost:4020",
+      "method": "POST",
+      "path": "/checkout",
+      "allowedPayTos": [
+        "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+      ],
+      "asset": "0x0000000000000000000000000000000000001010",
+      "assetName": "Test USD",
+      "assetVersion": "1",
+      "chainId": 31337,
+      "priceBand": {
+        "minAtomic": "1000",
+        "maxAtomic": "50000000"
+      },
+      "maxWindowSeconds": 30,
+      "perRequestCapAtomic": "50000000",
+      "approvalThresholdAtomic": "5000000"
+    }
+  }
+}

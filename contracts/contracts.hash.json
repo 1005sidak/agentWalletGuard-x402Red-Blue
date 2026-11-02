@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "contracts_hash": "sha256:4a41513138536e971c0e5b4a7d4468424b9cec177261ca07a2d8245606197142",
+  "synced_at": "2026-10-31T19:57:34.892Z",
+  "files": {
+    "CONTRACTS_VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+    "api.ts": "24af85a6b6a5f2ab7be74a6fec2a8d4f8ec6cd6f6efb79964c906c099043f72b",
+    "attacks.ts": "7a0c33bba848c0f8c38ed4c8ce6715c5e541c1f47ceaf9c75c1d178de6b2a8ed",
+    "constants.ts": "5d45baa2b8484962cbd737701890c2839c28525d3ec5a6b3e7ed86060ab5bc00",
+    "events.ts": "c6c149ab5cc9dc481d870aa9db8389ef54409109d87bc28d48fb8a325314ea2f",
+    "hash.ts": "3881018043aedcc19feeb6a0ad05dd457d4840a6b0e4e8260805578602b574cd",
+    "index.ts": "4f92cbe766486f836b6f11c719e6a80194dd1cacbfd346e92fdfba1e5e97da83",
+    "reason-codes.ts": "55e3dc2e565ccf5766ae3af839aeaee2ca26208923d0bcad5ad891679dfce6c8",
+    "registry.schema.ts": "4bce502d3027645e85f35574422702377eec55a2565663371ace853bb898d540",
+    "x402-types.ts": "af631acd81b3cdffd9b4ddfabffee2e1c819b646601b309d56cc65d8a34fff9a"
+  }
+}

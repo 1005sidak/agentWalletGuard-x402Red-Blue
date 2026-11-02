@@ -1,0 +1,30 @@
+{
+  "system": "x402-red-blue",
+  "version": "1.0.0",
+  "contracts_hash": "sha256:4a41513138536e971c0e5b4a7d4468424b9cec177261ca07a2d8245606197142",
+  "created_at": "2026-10-31T19:57:35.299Z",
+  "nodes": {
+    "blue": {
+      "node": "DEFENDER (Laptop 1)",
+      "file": "blue.zip",
+      "sha256": "a4e4ca8d59d7e1acec84e5857541e1ca8998ee91bf39b560cac5d1ce7010388c",
+      "size_bytes": 109071,
+      "services": [
+        "agent:4010",
+        "chain:4040",
+        "collector:4050"
+      ]
+    },
+    "red": {
+      "node": "ATTACKER (Laptop 2)",
+      "file": "red.zip",
+      "sha256": "e8a1801cfef6f28f9a8ecaec5cb57a5a30b206d6f95052640ec8d022001ca161",
+      "size_bytes": 55792,
+      "services": [
+        "merchant:4020",
+        "facilitator:4030",
+        "console:4060"
+      ]
+    }
+  }
+}

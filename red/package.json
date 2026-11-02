@@ -1,0 +1,43 @@
+{
+  "name": "red-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Red Attacker Node: Hostile merchant, mock facilitator, 18 attacks, fuzzer, learner, console",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "red": "tsx src/index.ts",
+    "merchant": "tsx src/merchant/server.ts",
+    "facilitator": "tsx src/facilitator/server.ts",
+    "console": "tsx src/console/server.ts",
+    "attacks": "tsx src/orchestrator/cli.ts",
+    "attacks:all": "tsx src/orchestrator/cli.ts --all",
+    "fuzz": "tsx src/fuzz/cli.ts",
+    "learn": "tsx src/learning/cli.ts",
+    "reset": "tsx src/reset.ts",
+    "solo": "tsx src/solo.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fast-check": "^3.23.1",
+    "pino": "^9.5.0",
+    "uuid": "^11.0.3",
+    "viem": "^2.21.57",
+    "x402": "1.2.0",
+    "x402-fetch": "1.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
