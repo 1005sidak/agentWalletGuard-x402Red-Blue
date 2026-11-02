@@ -1,0 +1,28 @@
+{
+  "name": "x402-red-blue-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "x402 Red-Blue Payment Security System (Monorepo, Two Deployable Nodes)",
+  "workspaces": [
+    "blue",
+    "red"
+  ],
+  "scripts": {
+    "sync:contracts": "tsx scripts/sync-contracts.ts",
+    "split": "tsx scripts/split.ts",
+    "start": "tsx scripts/solo.ts",
+    "solo": "tsx scripts/solo.ts",
+    "blue": "npm run blue --workspace=blue",
+    "red": "npm run red --workspace=red",
+    "test:honest-200": "tsx scripts/test-honest-200.ts",
+    "test:contracts": "vitest run tests/contracts.test.ts",
+    "test:all": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "zod": "^3.24.1"
+  }
+}
